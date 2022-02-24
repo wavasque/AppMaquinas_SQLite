@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refrescar"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_create"
+        android:title="Crear"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/action_maquina"
+        android:title="Maquinas"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_cliente"
+        android:title="Clientes"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_movims"
+        android:title="Movimientos"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <TextView
+        android:id="@+id/view_maquina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Maquina"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/view_ubicacion"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Ubicacion"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+
+            android:id="@+id/view_Departamento"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Depto"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/view_fec_ult"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Fec_Ultima"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+
+            android:id="@+id/view_fec_prox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Fec_Proxima"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/view_status"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Status"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/view_cliete"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:hint="Cliente"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/colorBlack" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Status" >
+        <item>Selecciones Status:</item>
+        <item>Libre</item>
+        <item>Reparacion</item>
+        <item>Fuera de Uso</item>
+        <item>Chatarra</item>
+        <item>Asignado a Cliente</item>
+    </string-array>
+</resources>
